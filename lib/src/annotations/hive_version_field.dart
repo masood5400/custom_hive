@@ -20,7 +20,7 @@ class HiveVersionField {
   ///   pear
   /// }
   /// ```
-  final Type? selectType;
+  final Object? selectType;
 
   const HiveVersionField({required this.version, required this.selectType});
 }
