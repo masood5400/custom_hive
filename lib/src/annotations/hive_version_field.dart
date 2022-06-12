@@ -20,7 +20,7 @@ class HiveVersionField {
   ///   pear
   /// }
   /// ```
-  final DartObject? selectType;
+  final Type? selectType;
 
   const HiveVersionField({required this.version, required this.selectType});
 }
