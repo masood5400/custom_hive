@@ -7,6 +7,7 @@ import 'dart:convert';
 import 'dart:math';
 import 'dart:typed_data';
 
+import 'package:analyzer/dart/constant/value.dart';
 import 'package:crypto/crypto.dart';
 import 'package:hive/src/box/default_compaction_strategy.dart';
 import 'package:hive/src/box/default_key_comparator.dart';
@@ -23,6 +24,7 @@ export 'src/object/hive_object.dart' show HiveObject, HiveObjectMixin;
 
 part 'src/annotations/hive_field.dart';
 part 'src/annotations/hive_type.dart';
+part 'src/annotations/hive_version_field.dart';
 part 'src/binary/binary_reader.dart';
 part 'src/binary/binary_writer.dart';
 part 'src/box/box.dart';
