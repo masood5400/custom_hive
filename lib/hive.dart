@@ -7,7 +7,6 @@ import 'dart:convert';
 import 'dart:math';
 import 'dart:typed_data';
 
-import 'package:analyzer/dart/constant/value.dart';
 import 'package:crypto/crypto.dart';
 import 'package:hive/src/box/default_compaction_strategy.dart';
 import 'package:hive/src/box/default_key_comparator.dart';
@@ -39,6 +38,7 @@ part 'src/object/hive_list.dart';
 part 'src/object/hive_storage_backend_preference.dart';
 part 'src/registry/type_adapter.dart';
 part 'src/registry/type_registry.dart';
+part 'src/util/cast_utils.dart';
 
 /// Global constant to access Hive.
 // ignore: non_constant_identifier_names

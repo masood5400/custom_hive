@@ -10,6 +10,10 @@ extension StringX on String {
     }
     return true;
   }
+
+  String capitalize() {
+    return "${this[0].toUpperCase()}${this.substring(1).toLowerCase()}";
+  }
 }
 
 /// Not part of public API
